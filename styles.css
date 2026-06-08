@@ -5,7 +5,17 @@
 body.login-page {
     margin: 0;
     font-family: Arial, sans-serif;
-    height: 100vh;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        135deg,
+        #6a11cb,
+        #8e2de2
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* 🔥 ESTE ES EL FONDO REAL (CLAVE) */
