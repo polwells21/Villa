@@ -1,23 +1,33 @@
 /* =========================
-   🌈 ESTILO GENERAL
+   🌈 LOGIN PAGE
 ========================= */
 
-body {
+body.login-page {
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #6a11cb, #8e2de2);
     height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /* =========================
-   🔐 LOGIN
+   📊 DASHBOARD PAGE
+========================= */
+
+body.dashboard-page {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #8e2de2);
+}
+
+/* =========================
+   🔐 LOGIN BOX
 ========================= */
 
 .login-container {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +42,6 @@ body {
     text-align: center;
 }
 
-/* 🟣 TÍTULOS LOGIN */
 .title {
     margin: 0;
     font-size: 28px;
@@ -46,7 +55,7 @@ body {
     color: gray;
 }
 
-/* 🏷 LABELS */
+/* inputs */
 label {
     display: block;
     text-align: left;
@@ -54,7 +63,6 @@ label {
     font-size: 14px;
 }
 
-/* ⌨ INPUTS */
 input {
     width: 100%;
     padding: 10px;
@@ -63,7 +71,7 @@ input {
     border-radius: 8px;
 }
 
-/* 🔘 BOTÓN */
+/* botón */
 button {
     margin-top: 20px;
     width: 100%;
@@ -81,7 +89,7 @@ button:hover {
 }
 
 /* =========================
-   📊 DASHBOARD
+   📊 DASHBOARD CARDS
 ========================= */
 
 .dashboard {
