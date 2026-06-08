@@ -24,7 +24,7 @@ body.dashboard-page {
 }
 
 /* =========================
-   🔐 LOGIN BOX
+   🔐 LOGIN
 ========================= */
 
 .login-container {
@@ -89,7 +89,7 @@ button:hover {
 }
 
 /* =========================
-   📊 DASHBOARD CARDS
+   📊 DASHBOARD
 ========================= */
 
 .dashboard {
