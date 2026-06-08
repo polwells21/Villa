@@ -1,12 +1,20 @@
+/* =========================
+   🌈 ESTILO GENERAL
+========================= */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: linear-gradient(135deg, #6a11cb, #8e2de2);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* =========================
+   🔐 LOGIN
+========================= */
 
 .login-container {
     width: 100%;
@@ -18,22 +26,27 @@ body {
 .login-box {
     background: white;
     padding: 40px;
-    border-radius: 15px;
+    border-radius: 18px;
     width: 320px;
-    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+    box-shadow: 0px 15px 35px rgba(0,0,0,0.25);
     text-align: center;
 }
 
-.login-box h1 {
-    margin-bottom: 10px;
-    color: #333;
+/* 🟣 TÍTULOS LOGIN */
+.title {
+    margin: 0;
+    font-size: 28px;
+    color: #4b0082;
 }
 
-.login-box p {
+.subtitle {
+    margin-top: 5px;
+    margin-bottom: 20px;
     font-size: 14px;
     color: gray;
 }
 
+/* 🏷 LABELS */
 label {
     display: block;
     text-align: left;
@@ -41,6 +54,7 @@ label {
     font-size: 14px;
 }
 
+/* ⌨ INPUTS */
 input {
     width: 100%;
     padding: 10px;
@@ -49,6 +63,7 @@ input {
     border-radius: 8px;
 }
 
+/* 🔘 BOTÓN */
 button {
     margin-top: 20px;
     width: 100%;
@@ -65,13 +80,9 @@ button:hover {
     background: #1a5edb;
 }
 
-.footer-text {
-    margin-top: 15px;
-    font-size: 12px;
-    color: gray;
-}
-
-
+/* =========================
+   📊 DASHBOARD
+========================= */
 
 .dashboard {
     padding: 40px;
